@@ -3,16 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gender-Automat</title>
+    <title>Gender-Automat – Gendersensible Textverarbeitung</title>
     <link rel="stylesheet" href="style.css">
+
+<!-- Navigationsmenü (ohne Verlinkungen..) -->  
 </head>
 <body>
     <header>
-        <h1>Gender-Automat</h1>
+        <nav>
+            <img src="assets/logo.png" alt="Gender-Automat Logo" id="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#contact">Kontaktiere uns</a></li>
+            </ul>
+        </nav>
     </header>
+
+<!-- Beispieltexte zum Gendern-->
     <main>
         <section id="content">
-            <p>Willkommen beim Gender-Automat! Hier können Sie Texte gendersensibel überarbeiten.</p>
+            <h2>Beispieltexte zur Bearbeitung</h2>
+            <article>
+                <h3>Text 1</h3>
+                <p>Der Entwickler< hat seine Aufgaben erfolgreich abgeschlossen.</p>
+            </article>
+            <article>
+                <h3>Text 2</h3>
+                <p>Der Arzt untersucht seine Patienten sorgfältig.</p>
+            </article>
+            <article>
+                <h3>Text 3</h3>
+                <p>Ein Student schrieb eine bemerkenswerte Arbeit.</p>
+            </article>
+            <article>
+                <h3>Bearbeitung starten</h3>
+                <button id="process-button">Gendersensible Sprache anwenden</button>
+                <div id="output">
+                    <h3>Ergebnis:</h3>
+                    <p id="result-text">Das Ergebnis wird hier angezeigt.</p>
+                </div>
+            </article>
         </section>
     </main>
     <footer>
@@ -20,4 +51,13 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
+<!-- Lokales Menü-->
+<aside id="local-menu">
+    <ul>
+        <li><a href="#definition">Was ist gendersensible Sprache?</a></li>
+        <li><a href="#funktion">Wie funktioniert das Tool?</a></li>
+        <li><a href="#beispiele">Beispiele für gendersensible Sprache</a></li>
+    </ul>
+</aside>
 </html>
